@@ -28,100 +28,139 @@
   <body class="">
    
       <!-- Navbar -->
-      <nav class="w-full z-50 bg-[#FDFAF5]">
-        <div
-          class="container mx-auto flex justify-between items-center px-4 sm:px-6 py-3 sm:py-4"
-        >
-          <!-- Made logo responsive -->
-          <div class="flex items-center space-x-2">
-            <img
-              src="./assets/TNT-Logo-Black-V2.png"
-              alt="TNT Logo"
-              class="h-16 sm:h-24 md:h-32 w-auto"
-            />
-          </div>
-
-          <!-- Desktop Menu -->
-          <ul
-            class="hidden md:flex space-x-4 lg:space-x-8 text-sm lg:text-xl font-bold"
-          >
-            <li>
-              <a href="index.html" class="text-[#134161] hover:text-[#FFD200]"
-                >HOME</a
-              >
-            </li><li>
-              <a href="services.html" class="text-[#134161] hover:text-[#FFD200]"
-                >SERVICES</a
-              >
-            </li>
-            <li>
-              <a href="about.html" class="text-[#134161] hover:text-[#FFD200]"
-                >ABOUT US</a
-              >
-            </li>
-            <li>
-              <a href="work.html" class="text-[#134161] hover:text-[#FFD200]"
-                >OUR WORK</a
-              >
-            </li>
-            <li>
-              <a href="contact.html" class="text-[#134161] hover:text-[#FFD200]"
-                >CONTACT</a
-              >
-            </li>
-            <li class="flex space-x-3 text-2xl">
-              <a
-                href="#"
-                class="text-[#134161] hover:text-[#FFD200] hover:scale-110 transition-transform duration-200"
-              >
-                <i class="fab fa-instagram"></i>
-              </a>
-              <a
-                href="#"
-                class="text-[#134161] hover:text-[#FFD200] hover:scale-110 transition-transform duration-200"
-              >
-                <i class="fab fa-facebook"></i>
-              </a>
-            </li>
-          </ul>
-
-          <!-- Mobile Toggle -->
-          <button
-            id="menuToggle"
-            class="md:hidden flex flex-col space-y-1 focus:outline-none"
-            aria-label="Toggle menu"
-          >
-            <span class="block w-6 h-0.5 bg-white"></span>
-            <span class="block w-6 h-0.5 bg-white"></span>
-            <span class="block w-6 h-0.5 bg-white"></span>
-          </button>
+     <nav class="w-full z-50 bg-[#FDFAF5]">
+      <div
+        class="container mx-auto flex justify-between items-center px-4 sm:px-6 py-3 sm:py-4"
+      >
+        <!-- Made logo responsive -->
+        <div class="flex items-center space-x-2">
+          <img
+            src="./assets/TNT-Logo-Black-V2.png"
+            alt="TNT Logo"
+            class="h-16 sm:h-24 md:h-32 w-auto"
+          />
         </div>
 
-        <!-- Mobile Menu -->
-        <div
-          id="mobileMenu"
-          class="hidden md:hidden bg-black/70 text-white shadow-md"
+        <!-- Desktop Menu -->
+        <ul
+          class="hidden md:flex space-x-4 lg:space-x-8 text-sm lg:text-xl font-bold"
         >
-          <ul class="flex flex-col p-4 space-y-3">
-            <li><a href="services.html" class="block">SERVICES</a></li>
-            <li><a href="about.html" class="block">ABOUT US</a></li>
-            <li><a href="work.html" class="block">OUR WORK</a></li>
-            <li><a href="contact.html" class="block">CONTACT</a></li>
-          </ul>
-        </div>
-      </nav>
+          <li>
+            <a href="index.html" class="text-[#134161] hover:text-[#FFD200]"
+              >HOME</a
+            >
+          </li>
+          <li>
+            <a href="services.html" class="text-[#134161] hover:text-[#FFD200]"
+              >SERVICES</a
+            >
+          </li>
+          <li>
+            <a href="about.html" class="text-[#134161] hover:text-[#FFD200]"
+              >ABOUT US</a
+            >
+          </li>
+          <li>
+            <a href="work.html" class="text-[#134161] hover:text-[#FFD200]"
+              >OUR WORK</a
+            >
+          </li>
+          <li>
+            <a href="contact.html" class="text-[#134161] hover:text-[#FFD200]"
+              >CONTACT</a
+            >
+          </li> <li>
+            <a href="calendar.html" class="text-[#134161] hover:text-[#FFD200]"
+              >CALENDAR</a
+            >
+          </li>
+          <li class="flex space-x-3 text-2xl">
+            <a
+              href="#"
+              class="text-[#134161] hover:text-[#FFD200] hover:scale-110 transition-transform duration-200"
+            >
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a
+              href="#"
+              class="text-[#134161] hover:text-[#FFD200] hover:scale-110 transition-transform duration-200"
+            >
+              <i class="fab fa-facebook"></i>
+            </a>
+          </li>
+        </ul>
 
+        <!-- Mobile Toggle -->
+        <button
+          id="menuToggle"
+          class="md:hidden flex flex-col space-y-1 focus:outline-none"
+          aria-label="Toggle menu"
+        >
+          <span class="block w-6 h-0.5 bg-white"></span>
+          <span class="block w-6 h-0.5 bg-white"></span>
+          <span class="block w-6 h-0.5 bg-white"></span>
+        </button>
+      </div>
+
+      <!-- Mobile Menu -->
+      <div
+        id="mobileMenu"
+        class="hidden md:hidden bg-black/70 text-white shadow-md"
+      >
+        <ul class="flex flex-col p-4 space-y-3">
+          <li><a href="services.html" class="block">SERVICES</a></li>
+          <li><a href="about.html" class="block">ABOUT US</a></li>
+          <li><a href="work.html" class="block">OUR WORK</a></li>
+          <li><a href="contact.html" class="block">CONTACT</a></li>
+          <li><a href="calendar.html" class="block">CALENDAR</a></li>
+        </ul>
+      </div>
+    </nav>
      
 
    
 
    
 
-    <div
+
+
+      <!-- Team Members -->
+      <!-- Made team members responsive -->
+  <section id="about" class="">
+      <!-- Top Hero Section -->
+      <!-- Made hero section responsive -->
+      <div class="relative bg-[#FDFAF5] h-64 sm:h-80 md:h-[500px] w-full">
+        <!-- Background image -->
+        <img
+          src="./assets/Untitled design (27).png"
+          alt="About Hero"
+          class="absolute inset-0 w-full h-full object-cover"
+        />
+
+        <!-- Logo at bottom-left -->
+        <!-- <div class="absolute bottom-4 sm:bottom-6 md:bottom-10 left-4 sm:left-6 md:left-10">
+        <img src="./assets/TNT-Logo-Black-V2.png" alt="TNT Logo" class="h-12 sm:h-20 md:h-32 w-auto" />
+      </div> -->
+
+        <!-- Button centered at bottom -->
+        <div
+          class="absolute bottom-4 sm:bottom-6 md:bottom-10 left-0 right-0 flex justify-center"
+        >
+          <button
+            class="text-lg sm:text-xl md:text-2xl font-dmsans bg-white text-[#0d4c73] font-semibold px-6 sm:px-8 md:px-10 py-2 sm:py-3 md:py-3 rounded-sm shadow-md hover:bg-[#FFD200] transition"
+          >
+            ABOUT US
+          </button>
+        </div>
+      </div>
+
+      <!-- About Description -->
+      <!-- Made about description responsive -->
+      <div
         class="container mx-auto px-4 sm:px-6 py-8 sm:py-12 md:py-16 text-center bg-[#FDFAF5] text-[#134161]"
       >
         <p
-          class="max-w-6xl mx-auto text-base sm:text-lg md:text-2xl leading-relaxed"
+          class="max-w-6xl mx-auto text-[#134161] text-base sm:text-lg md:text-2xl leading-relaxed"
         >
           At <strong>TNT Commercial Services 615</strong>, our journey began
           with a vision to revolutionize the commercial cleaning industry by
@@ -135,7 +174,7 @@
         </p>
         <br class="hidden md:block" /><br class="hidden md:block" />
         <p
-          class="max-w-6xl mx-auto text-base sm:text-lg md:text-2xl leading-relaxed"
+          class="max-w-6xl text-[#134161] mx-auto text-base sm:text-lg md:text-2xl leading-relaxed"
         >
           Beyond cleaning, our mission is to
           <strong>empower and employ others</strong>, creating opportunities

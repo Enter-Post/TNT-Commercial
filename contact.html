@@ -9,6 +9,7 @@
     />
     <meta name="theme-color" content="#0d4c73" />
     <title>TNT Commercial Services 615 - Commercial Cleaning Solutions</title>
+    <link rel="icon" type="image/png" href="./assets/TNT-Logo-Black-V2.png" />
 
     <!-- Fonts -->
     <link
@@ -16,7 +17,10 @@
       rel="stylesheet"
     />
 
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
 
     <link rel="stylesheet" href="styles.css" />
 
@@ -25,121 +29,166 @@
   </head>
 
   <body class="">
-    
-      <!-- Navbar -->
-  <nav class="w-full z-50 bg-[#FDFAF5]">
-        <div
-          class="container mx-auto flex justify-between items-center px-4 sm:px-6 py-3 sm:py-4"
-        >
-          <!-- Made logo responsive -->
-          <div class="flex items-center space-x-2">
-            <img
-              src="./assets/TNT-Logo-Black-V2.png"
-              alt="TNT Logo"
-              class="h-16 sm:h-24 md:h-32 w-auto"
-            />
-          </div>
-
-          <!-- Desktop Menu -->
-          <ul
-            class="hidden md:flex space-x-4 lg:space-x-8 text-sm lg:text-xl font-bold"
-          >
-            <li>
-              <a href="index.html" class="text-[#134161] hover:text-[#FFD200]"
-                >HOME</a
-              >
-            </li><li>
-              <a href="services.html" class="text-[#134161] hover:text-[#FFD200]"
-                >SERVICES</a
-              >
-            </li>
-            <li>
-              <a href="about.html" class="text-[#134161] hover:text-[#FFD200]"
-                >ABOUT US</a
-              >
-            </li>
-            <li>
-              <a href="work.html" class="text-[#134161] hover:text-[#FFD200]"
-                >OUR WORK</a
-              >
-            </li>
-            <li>
-              <a href="contact.html" class="text-[#134161] hover:text-[#FFD200]"
-                >CONTACT</a
-              >
-            </li>
-            <li class="flex space-x-3 text-2xl">
-              <a
-                href="#"
-                class="text-[#134161] hover:text-[#FFD200] hover:scale-110 transition-transform duration-200"
-              >
-                <i class="fab fa-instagram"></i>
-              </a>
-              <a
-                href="#"
-                class="text-[#134161] hover:text-[#FFD200] hover:scale-110 transition-transform duration-200"
-              >
-                <i class="fab fa-facebook"></i>
-              </a>
-            </li>
-          </ul>
-
-          <!-- Mobile Toggle -->
-          <button
-            id="menuToggle"
-            class="md:hidden flex flex-col space-y-1 focus:outline-none"
-            aria-label="Toggle menu"
-          >
-            <span class="block w-6 h-0.5 bg-white"></span>
-            <span class="block w-6 h-0.5 bg-white"></span>
-            <span class="block w-6 h-0.5 bg-white"></span>
-          </button>
+    <!-- Navbar -->
+    <nav class="w-full z-50 bg-[#FDFAF5]">
+      <div
+        class="container mx-auto flex justify-between items-center px-4 sm:px-6 py-3 sm:py-4"
+      >
+        <div class="flex items-center space-x-2">
+          <img
+            src="./assets/TNT-Logo-Black-V2.png"
+            alt="TNT Logo"
+            class="h-16 sm:h-24 md:h-32 w-auto"
+          />
         </div>
 
-        <!-- Mobile Menu -->
-        <div
-          id="mobileMenu"
-          class="hidden md:hidden bg-black/70 text-white shadow-md"
+        <!-- Desktop Menu -->
+        <ul
+          class="hidden md:flex space-x-4 lg:space-x-8 text-sm lg:text-xl font-bold"
         >
-          <ul class="flex flex-col p-4 space-y-3">
-            <li><a href="services.html" class="block">SERVICES</a></li>
-            <li><a href="about.html" class="block">ABOUT US</a></li>
-            <li><a href="work.html" class="block">OUR WORK</a></li>
-            <li><a href="contact.html" class="block">CONTACT</a></li>
-          </ul>
-        </div>
-      </nav>
+          <li>
+            <a href="index.html" class="text-[#134161] hover:text-[#FFD200]"
+              >HOME</a
+            >
+          </li>
+          <li>
+            <a href="services.html" class="text-[#134161] hover:text-[#FFD200]"
+              >SERVICES</a
+            >
+          </li>
+          <li>
+            <a href="about.html" class="text-[#134161] hover:text-[#FFD200]"
+              >ABOUT US</a
+            >
+          </li>
+          <li>
+            <a href="work.html" class="text-[#134161] hover:text-[#FFD200]"
+              >OUR WORK</a
+            >
+          </li>
+          <li>
+            <a href="contact.html" class="text-[#134161] hover:text-[#FFD200]"
+              >CONTACT</a
+            >
+          </li>
+          <li>
+            <a href="calendar.html" class="text-[#134161] hover:text-[#FFD200]"
+              >CALENDAR</a
+            >
+          </li>
+          <li class="flex space-x-3 text-2xl">
+            <a
+              href="#"
+              class="text-[#134161] hover:text-[#FFD200] hover:scale-110 transition-transform duration-200"
+              ><i class="fab fa-instagram"></i
+            ></a>
+            <a
+              href="#"
+              class="text-[#134161] hover:text-[#FFD200] hover:scale-110 transition-transform duration-200"
+              ><i class="fab fa-facebook"></i
+            ></a>
+          </li>
+        </ul>
 
-        <!-- Mobile Menu -->
-        <div
-          id="mobileMenu"
-          class="hidden md:hidden bg-black/70 text-white shadow-md"
+        <!-- Mobile Toggle -->
+        <button
+          id="menuToggle"
+          class="md:hidden flex flex-col space-y-1 focus:outline-none"
+          aria-label="Toggle menu"
         >
-          <ul class="flex flex-col p-4 space-y-3">
-            <li><a href="services.html" class="block">SERVICES</a></li>
-            <li><a href="about.html" class="block">ABOUT US</a></li>
-            <li><a href="work.html" class="block">OUR WORK</a></li>
-            <li><a href="contact.html" class="block">CONTACT</a></li>
-          </ul>
+          <span class="block w-6 h-0.5 bg-white"></span>
+          <span class="block w-6 h-0.5 bg-white"></span>
+          <span class="block w-6 h-0.5 bg-white"></span>
+        </button>
+      </div>
+
+      <!-- Mobile Menu -->
+      <div
+        id="mobileMenu"
+        class="hidden md:hidden bg-black/70 text-white shadow-md"
+      >
+        <ul class="flex flex-col p-4 space-y-3">
+          <li><a href="services.html" class="block">SERVICES</a></li>
+          <li><a href="about.html" class="block">ABOUT US</a></li>
+          <li><a href="work.html" class="block">OUR WORK</a></li>
+          <li><a href="contact.html" class="block">CONTACT</a></li>
+          <li><a href="calendar.html" class="block">CALENDAR</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- CONTACT FORM SECTION -->
+    <section class="w-full bg-[#FDFAF5] py-20 flex items-center justify-center">
+      <div class="w-full max-w-2xl px-6">
+        <h2
+          class="text-4xl font-dmsans font-bold text-center text-[#134161] mb-2"
+        >
+          Tell Us What You Need
+        </h2>
+        <p class="text-center text-[#134161]/70 mb-10">
+          Our team is ready to assist you with any detail, big or small.
+        </p>
+
+        <!-- THANK YOU MESSAGE (HIDDEN BY DEFAULT) -->
+        <div
+          id="thankYouMessage"
+          class="hidden mb-6 p-4 bg-green-100 text-green-800 text-center rounded-lg font-medium"
+        >
+          Thank you! Your message has been sent successfully.
         </div>
-      </nav>
 
-    
+        <!-- CONTACT FORM (FormSubmit) -->
+     <form action="https://formsubmit.co/tntcommercialservices615@gmail.com" method="POST" class="space-y-8">
 
-    
+  <!-- Redirect to Home -->
+  <input type="hidden" name="_next" value="https://tntcommercial.netlify.app/">
+
+  <!-- Disable captcha -->
+  <input type="hidden" name="_captcha" value="false">
+
+  <!-- Subject -->
+  <input type="hidden" name="_subject" value="New Contact Form Submission">
+
+  <!-- First + Last Name -->
+  <div class="grid grid-cols-1 sm:grid-cols-2 gap-8">
+    <input type="text" name="first_name" placeholder="First Name" required 
+      class="w-full border-b border-gray-400 bg-transparent focus:border-[#FFD200] focus:outline-none py-3">
+    <input type="text" name="last_name" placeholder="Last Name" required 
+      class="w-full border-b border-gray-400 bg-transparent focus:border-[#FFD200] focus:outline-none py-3">
+  </div>
+
+  <!-- Phone -->
+  <input type="text" name="phone" placeholder="Phone Number" required
+    class="w-full border-b border-gray-400 bg-transparent focus:border-[#FFD200] focus:outline-none py-3">
+
+  <!-- Email -->
+  <input type="email" name="email" placeholder="Email Address" required
+    class="w-full border-b border-gray-400 bg-transparent focus:border-[#FFD200] focus:outline-none py-3">
+
+  <!-- Message -->
+  <textarea name="message" rows="4" placeholder="Message" required
+    class="w-full border-b border-gray-400 bg-transparent focus:border-[#FFD200] focus:outline-none py-3 resize-none"></textarea>
+
+  <!-- Button -->
+  <button class="w-full bg-[#FFD200] text-[#134161] font-dmsans font-bold py-4 rounded-lg hover:bg-yellow-300 transition">
+    Submit
+  </button>
+
+</form>
+
+
+      </div>
+    </section>
 
     <!-- FOOTER -->
-    <!-- Made footer fully responsive -->
     <footer
       class="relative min-h-screen md:min-h-screen bg-cover bg-center flex items-center justify-center"
       style="background-image: url('./assets/shutterstock_2496564007.jpg')"
     >
-      <!-- Overlay for text contrast -->
       <div
         class="absolute inset-0 bg-gradient-to-r from-blue-400/10 to-transparent"
       ></div>
 
-      <!-- Logo Top-Right -->
       <div
         class="absolute top-4 sm:top-6 md:top-10 right-4 sm:right-6 md:right-16 z-20"
       >
@@ -150,32 +199,26 @@
         />
       </div>
 
-      <!-- Main Content Container -->
       <div
         class="relative z-10 w-full h-full flex items-center justify-center px-4 sm:px-6 md:px-16 py-12"
       >
-        <!-- Centered Content -->
         <div class="text-left space-y-6 sm:space-y-8 max-w-2xl">
-          <!-- LET'S CONNECT Heading -->
           <h2
             class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-dmsans font-bold text-blue-900"
           >
             LET'S CONNECT
           </h2>
 
-          <!-- Contact Button -->
           <button
-            class="bg-yellow-400 text-black font-dmsans font-bold px-6 sm:px-8 py-3 sm:py-4 text-base sm:text-lg hover:bg-yellow-400 transition shadow-lg rounded-sm"
+            class="bg-yellow-400 text-black font-bold px-6 sm:px-8 py-3 sm:py-4 text-base sm:text-lg hover:bg-yellow-400 transition shadow-lg rounded-sm"
           >
             CONTACT US
           </button>
 
-          <!-- Phone Number -->
           <p class="text-xl sm:text-2xl md:text-3xl font-medium text-blue-900">
             615-953-0336
           </p>
 
-          <!-- Address Section -->
           <div class="space-y-1">
             <p class="text-base sm:text-lg md:text-2xl text-blue-900">
               Headquarted in
@@ -195,6 +238,51 @@
       </div>
     </footer>
 
-    <script src="script.js"></script>
+    <!-- THANK YOU MESSAGE SCRIPT -->
+    <script>
+      const form = document.getElementById("contactForm");
+      const thankYou = document.getElementById("thankYouMessage");
+
+      form.addEventListener("submit", function () {
+        setTimeout(() => {
+          form.reset();
+          thankYou.classList.remove("hidden");
+        }, 800);
+      });
+
+     
+document.getElementById("contactForm").addEventListener("submit", function(e) {
+
+  let first = document.getElementById("firstName").value.trim();
+  let last = document.getElementById("lastName").value.trim();
+  let phone = document.getElementById("phone").value.trim();
+  let email = document.getElementById("email").value.trim();
+  let message = document.getElementById("message").value.trim();
+
+  let phoneRegex = /^[0-9\-\+\s\(\)]{7,15}$/;
+  let emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+  if (!first || !last || !phone || !email || !message) {
+    alert("Please fill out all fields.");
+    e.preventDefault();
+    return;
+  }
+
+  if (!phoneRegex.test(phone)) {
+    alert("Please enter a valid phone number.");
+    e.preventDefault();
+    return;
+  }
+
+  if (!emailRegex.test(email)) {
+    alert("Please enter a valid email address.");
+    e.preventDefault();
+    return;
+  }
+
+});
+
+
+    </script>
   </body>
 </html>

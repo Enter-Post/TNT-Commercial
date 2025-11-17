@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="TNT Commercial Services 615 - Professional commercial cleaning solutions in Middle Tennessee"
+    />
+    <meta name="theme-color" content="#0d4c73" />
+    <title>TNT Commercial Services 615 - Commercial Cleaning Solutions</title>
+    <link rel="icon" type="image/png" href="./assets/TNT-Logo-Black-V2.png" />
+
+    <!-- Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Inter:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+
+  <body class="">
+    <!-- Navbar -->
+    <nav class="w-full z-50 bg-[#FDFAF5]">
+      <div
+        class="container mx-auto flex justify-between items-center px-4 sm:px-6 py-3 sm:py-4"
+      >
+        <!-- Made logo responsive -->
+        <div class="flex items-center space-x-2">
+          <img
+            src="./assets/TNT-Logo-Black-V2.png"
+            alt="TNT Logo"
+            class="h-16 sm:h-24 md:h-32 w-auto"
+          />
+        </div>
+
+        <!-- Desktop Menu -->
+        <ul
+          class="hidden md:flex space-x-4 lg:space-x-8 text-sm lg:text-xl font-bold"
+        >
+          <li>
+            <a href="index.html" class="text-[#134161] hover:text-[#FFD200]"
+              >HOME</a
+            >
+          </li>
+          <li>
+            <a href="services.html" class="text-[#134161] hover:text-[#FFD200]"
+              >SERVICES</a
+            >
+          </li>
+          <li>
+            <a href="about.html" class="text-[#134161] hover:text-[#FFD200]"
+              >ABOUT US</a
+            >
+          </li>
+          <li>
+            <a href="work.html" class="text-[#134161] hover:text-[#FFD200]"
+              >OUR WORK</a
+            >
+          </li>
+          <li>
+            <a href="contact.html" class="text-[#134161] hover:text-[#FFD200]"
+              >CONTACT</a
+            >
+          </li>
+          <li>
+            <a href="calendar.html" class="text-[#134161] hover:text-[#FFD200]"
+              >CALENDAR</a
+            >
+          </li>
+          <li class="flex space-x-3 text-2xl">
+            <a
+              href="#"
+              class="text-[#134161] hover:text-[#FFD200] hover:scale-110 transition-transform duration-200"
+            >
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a
+              href="#"
+              class="text-[#134161] hover:text-[#FFD200] hover:scale-110 transition-transform duration-200"
+            >
+              <i class="fab fa-facebook"></i>
+            </a>
+          </li>
+        </ul>
+
+        <!-- Mobile Toggle -->
+        <button
+          id="menuToggle"
+          class="md:hidden flex flex-col space-y-1 focus:outline-none"
+          aria-label="Toggle menu"
+        >
+          <span class="block w-6 h-0.5 bg-white"></span>
+          <span class="block w-6 h-0.5 bg-white"></span>
+          <span class="block w-6 h-0.5 bg-white"></span>
+        </button>
+      </div>
+
+      <!-- Mobile Menu -->
+      <div
+        id="mobileMenu"
+        class="hidden md:hidden bg-black/70 text-white shadow-md"
+      >
+        <ul class="flex flex-col p-4 space-y-3">
+          <li><a href="services.html" class="block">SERVICES</a></li>
+          <li><a href="about.html" class="block">ABOUT US</a></li>
+          <li><a href="work.html" class="block">OUR WORK</a></li>
+          <li><a href="contact.html" class="block">CONTACT</a></li>
+          <li><a href="calendar.html" class="block">CALENDAR</a></li>
+        </ul>
+      </div>
+    </nav>
+    <section>
+      <!-- Calendly inline widget begin -->
+      <div
+        class="calendly-inline-widget"
+        data-url="https://calendly.com/tntcommercialservices615/consultation-call-30-mins"
+        style="min-width: 320px; height: 700px"
+      ></div>
+      <script
+        type="text/javascript"
+        src="https://assets.calendly.com/assets/external/widget.js"
+        async
+      ></script>
+      <!-- Calendly inline widget end -->
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>

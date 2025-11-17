@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="TNT Commercial Services 615 - Professional commercial cleaning solutions in Middle Tennessee"
+    />
+    <meta name="theme-color" content="#0d4c73" />
+    <title>TNT Commercial Services 615 - Commercial Cleaning Solutions</title>
+<link rel="icon" type="image/png" href="./assets/TNT-Logo-Black-V2.png" />
+
+    <!-- Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Inter:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+
+  <body class="">
+   
+      <!-- Navbar -->
+      <nav class="w-full z-50 bg-[#FDFAF5]">
+        <div
+          class="container mx-auto flex justify-between items-center px-4 sm:px-6 py-3 sm:py-4"
+        >
+          <!-- Made logo responsive -->
+          <div class="flex items-center space-x-2">
+            <img
+              src="./assets/TNT-Logo-Black-V2.png"
+              alt="TNT Logo"
+              class="h-16 sm:h-24 md:h-32 w-auto"
+            />
+          </div>
+
+          <!-- Desktop Menu -->
+          <ul
+            class="hidden md:flex space-x-4 lg:space-x-8 text-sm lg:text-xl font-bold"
+          >
+            <li>
+              <a href="index.html" class="text-[#134161] hover:text-[#FFD200]"
+                >HOME</a
+              >
+            </li><li>
+              <a href="services.html" class="text-[#134161] hover:text-[#FFD200]"
+                >SERVICES</a
+              >
+            </li>
+            <li>
+              <a href="about.html" class="text-[#134161] hover:text-[#FFD200]"
+                >ABOUT US</a
+              >
+            </li>
+            <li>
+              <a href="work.html" class="text-[#134161] hover:text-[#FFD200]"
+                >OUR WORK</a
+              >
+            </li>
+            <li>
+              <a href="contact.html" class="text-[#134161] hover:text-[#FFD200]"
+                >CONTACT</a
+              >
+            </li>
+            <li class="flex space-x-3 text-2xl">
+              <a
+                href="#"
+                class="text-[#134161] hover:text-[#FFD200] hover:scale-110 transition-transform duration-200"
+              >
+                <i class="fab fa-instagram"></i>
+              </a>
+              <a
+                href="#"
+                class="text-[#134161] hover:text-[#FFD200] hover:scale-110 transition-transform duration-200"
+              >
+                <i class="fab fa-facebook"></i>
+              </a>
+            </li>
+          </ul>
+
+          <!-- Mobile Toggle -->
+          <button
+            id="menuToggle"
+            class="md:hidden flex flex-col space-y-1 focus:outline-none"
+            aria-label="Toggle menu"
+          >
+            <span class="block w-6 h-0.5 bg-white"></span>
+            <span class="block w-6 h-0.5 bg-white"></span>
+            <span class="block w-6 h-0.5 bg-white"></span>
+          </button>
+        </div>
+
+        <!-- Mobile Menu -->
+        <div
+          id="mobileMenu"
+          class="hidden md:hidden bg-black/70 text-white shadow-md"
+        >
+          <ul class="flex flex-col p-4 space-y-3">
+            <li><a href="services.html" class="block">SERVICES</a></li>
+            <li><a href="about.html" class="block">ABOUT US</a></li>
+            <li><a href="work.html" class="block">OUR WORK</a></li>
+            <li><a href="contact.html" class="block">CONTACT</a></li>
+          </ul>
+        </div>
+      </nav>
+
+     
+
+   
+
+   
+
+    <!-- ABOUT US SECTION -->
+    <section id="about" class="bg-[#FDFAF5]">
+      <!-- Top Hero Section -->
+      <!-- Made hero section responsive -->
+      <div class="relative h-64 sm:h-80 md:h-[500px] w-full">
+        <!-- Background image -->
+        <img
+          src="./assets/Untitled design (27).png"
+          alt="About Hero"
+          class="absolute inset-0 w-full h-full object-cover"
+        />
+
+        <!-- Logo at bottom-left -->
+        <!-- <div class="absolute bottom-4 sm:bottom-6 md:bottom-10 left-4 sm:left-6 md:left-10">
+        <img src="./assets/TNT-Logo-Black-V2.png" alt="TNT Logo" class="h-12 sm:h-20 md:h-32 w-auto" />
+      </div> -->
+
+        <!-- Button centered at bottom -->
+        <div
+          class="absolute bottom-4 sm:bottom-6 md:bottom-10 left-0 right-0 flex justify-center"
+        >
+          <button
+            class="text-lg sm:text-xl md:text-2xl font-dmsans bg-white text-[#0d4c73] font-semibold px-6 sm:px-8 md:px-10 py-2 sm:py-3 md:py-3 rounded-sm shadow-md hover:bg-[#FFD200] transition"
+          >
+            ABOUT US
+          </button>
+        </div>
+      </div>
+
+      <!-- About Description -->
+      <!-- Made about description responsive -->
+      <div
+        class="container mx-auto px-4 sm:px-6 py-8 sm:py-12 md:py-16 text-center text-[#FDFAF5]-700"
+      >
+        <p
+          class="max-w-6xl mx-auto text-base sm:text-lg md:text-2xl leading-relaxed"
+        >
+          At <strong>TNT Commercial Services 615</strong>, our journey began
+          with a vision to revolutionize the commercial cleaning industry by
+          <strong
+            >providing specialized services tailored to the unique needs of
+            every client.</strong
+          >
+          We are driven by a <strong>commitment to excellence</strong>,
+          integrity, and reliability — setting a new standard in commercial and
+          janitorial services.
+        </p>
+        <br class="hidden md:block" /><br class="hidden md:block" />
+        <p
+          class="max-w-6xl mx-auto text-base sm:text-lg md:text-2xl leading-relaxed"
+        >
+          Beyond cleaning, our mission is to
+          <strong>empower and employ others</strong>, creating opportunities
+          that spark a ripple effect of
+          <strong>positive change within our communities.</strong> As we
+          continue to grow, we remain dedicated to being the leader in our
+          industry, delivering spotless results and lasting partnerships built
+          on trust and professionalism.
+        </p>
+
+        <div
+          class="mt-6 sm:mt-8 border-t-8 border-[#FFD200] max-w-3xl mx-auto"
+        ></div>
+      </div>
+
+      <!-- Team Members -->
+      <!-- Made team members responsive -->
+      <div
+        class="container mx-auto px-4 sm:px-6 pb-12 md:pb-20 space-y-12 md:space-y-16"
+      >
+        <!-- Member 1 -->
+        <div class="flex flex-col md:flex-row gap-6 md:gap-10">
+          <!-- Left side -->
+          <div
+            class="flex flex-col items-center md:items-start text-center md:text-left"
+          >
+            <img
+              src="./assets/Edited/Untitled design (4).jpg"
+              alt="Tavarus N. Taylor"
+              class="w-48 sm:w-56 md:w-60 h-48 sm:h-56 md:h-60 object-cover rounded-md shadow-md"
+            />
+
+            <div class="mt-4">
+              <h3
+                class="text-lg sm:text-xl md:text-xl font-dmsans font-bold text-[#0d4c73]"
+              >
+                TAVARUS N. TAYLOR
+              </h3>
+              <p class="text-xs sm:text-lg text-[#FFD200] font-semibold">CEO</p>
+              <div class="w-16 h-[2px] bg-[#FFD200] mt-2 mx-auto md:mx-0"></div>
+            </div>
+          </div>
+
+          <!-- Right side -->
+          <div class="md:w-2/3 text-center md:text-left">
+            <p
+              class="text-base sm:text-lg md:text-2xl text-[#FDFAF5]-700 leading-relaxed"
+            >
+              Tavarus N. Taylor is a proud Tennessee native with a strong
+              foundation in sales and leadership. As the driving force behind
+              TNT Commercial Services, he embodies the spirit of grassroots
+              innovation and community empowerment.
+            </p>
+            <p
+              class="text-base sm:text-lg md:text-2xl text-[#FDFAF5]-700 leading-relaxed mt-3"
+            >
+              Tavarus is deeply committed to social responsibility,
+              environmentally conscious practices, and youth empowerment —
+              inspiring others to live life to the fullest and create lasting
+              impact beyond themselves.
+            </p>
+          </div>
+        </div>
+
+        <!-- Member 2 -->
+        <div class="flex flex-col md:flex-row gap-6 md:gap-10">
+          <!-- Left side -->
+          <div
+            class="flex flex-col items-center md:items-start text-center md:text-left"
+          >
+            <img
+              src="./assets/Edited/Untitled design (5).jpg"
+              alt="Kolten Marvel"
+              class="w-48 sm:w-56 md:w-60 h-48 sm:h-56 md:h-60 object-cover rounded-md shadow-md"
+            />
+
+            <div class="mt-4">
+              <h3
+                class="text-lg sm:text-xl md:text-xl font-dmsans font-bold text-[#0d4c73]"
+              >
+                KOLTEN MARVEL
+              </h3>
+              <p class="text-xs sm:text-lg text-[#FFD200] font-semibold">CEO</p>
+              <div class="w-16 h-[2px] bg-[#FFD200] mt-2 mx-auto md:mx-0"></div>
+            </div>
+          </div>
+
+          <!-- Right side -->
+          <div class="md:w-2/3 text-center md:text-left">
+            <p
+              class="text-base sm:text-lg md:text-2xl text-[#FDFAF5]-700 leading-relaxed mt-3"
+            >
+              Kolten Marvel brings a strong background in financial management
+              and strategic growth. Kolten plays a key role in guiding the
+              company's financial operations and supporting its long-term vision
+              for excellence and sustainability.
+            </p>
+            <p
+              class="text-base sm:text-lg md:text-2xl text-[#FDFAF5]-700 leading-relaxed mt-3"
+            >
+              Outside of his professional responsibilities, Kolten enjoys
+              spending time with family and visiting the beach whenever possible
+              — embracing the balance between hard work and the simple joys of
+              life.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  
+    <!-- FOOTER -->
+    <!-- Made footer fully responsive -->
+    <footer
+      class="relative min-h-screen md:min-h-screen bg-cover bg-center flex items-center justify-center"
+      style="background-image: url('./assets/shutterstock_2496564007.jpg')"
+    >
+      <!-- Overlay for text contrast -->
+      <div
+        class="absolute inset-0 bg-gradient-to-r from-blue-400/10 to-transparent"
+      ></div>
+
+      <!-- Logo Top-Right -->
+      <div
+        class="absolute top-4 sm:top-6 md:top-10 right-4 sm:right-6 md:right-16 z-20"
+      >
+        <img
+          src="/assets/TNT-Logo-Black-V2.png"
+          alt="TNT Logo"
+          class="h-12 sm:h-20 md:h-32 w-auto"
+        />
+      </div>
+
+      <!-- Main Content Container -->
+      <div
+        class="relative z-10 w-full h-full flex items-center justify-center px-4 sm:px-6 md:px-16 py-12"
+      >
+        <!-- Centered Content -->
+        <div class="text-left space-y-6 sm:space-y-8 max-w-2xl">
+          <!-- LET'S CONNECT Heading -->
+          <h2
+            class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-dmsans font-bold text-blue-900"
+          >
+            LET'S CONNECT
+          </h2>
+
+          <!-- Contact Button -->
+          <button
+            class="bg-yellow-400 text-black font-dmsans font-bold px-6 sm:px-8 py-3 sm:py-4 text-base sm:text-lg hover:bg-yellow-400 transition shadow-lg rounded-sm"
+          >
+            CONTACT US
+          </button>
+
+          <!-- Phone Number -->
+          <p class="text-xl sm:text-2xl md:text-3xl font-medium text-blue-900">
+            615-953-0336
+          </p>
+
+          <!-- Address Section -->
+          <div class="space-y-1">
+            <p class="text-base sm:text-lg md:text-2xl text-blue-900">
+              Headquarted in
+            </p>
+            <p
+              class="text-base sm:text-lg md:text-2xl font-medium text-blue-900"
+            >
+              Nashville, TN 37209
+            </p>
+          </div>
+          <h1
+            class="text-base sm:text-lg md:text-xl lg:text-2xl font-bold text-blue-900"
+          >
+            LOCALLY OWNED AND OPERATED IN MIDDLE TENNESSEE
+          </h1>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

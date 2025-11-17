@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="TNT Commercial Services 615 - Professional commercial cleaning solutions in Middle Tennessee"
+    />
+    <meta name="theme-color" content="#0d4c73" />
+    <title>TNT Commercial Services 615 - Commercial Cleaning Solutions</title>
+<link rel="icon" type="image/png" href="./assets/TNT-Logo-Black-V2.png" />
+
+    <!-- Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Inter:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+
+  <body class="">
+    <!-- Navbar -->
+     <nav class="w-full z-50 bg-[#FDFAF5]">
+        <div
+          class="container mx-auto flex justify-between items-center px-4 sm:px-6 py-3 sm:py-4"
+        >
+          <!-- Made logo responsive -->
+          <div class="flex items-center space-x-2">
+            <img
+              src="./assets/TNT-Logo-Black-V2.png"
+              alt="TNT Logo"
+              class="h-16 sm:h-24 md:h-32 w-auto"
+            />
+          </div>
+
+          <!-- Desktop Menu -->
+          <ul
+            class="hidden md:flex space-x-4 lg:space-x-8 text-sm lg:text-xl font-bold"
+          >
+            <li>
+              <a href="index.html" class="text-[#134161] hover:text-[#FFD200]"
+                >HOME</a
+              >
+            </li><li>
+              <a href="services.html" class="text-[#134161] hover:text-[#FFD200]"
+                >SERVICES</a
+              >
+            </li>
+            <li>
+              <a href="about.html" class="text-[#134161] hover:text-[#FFD200]"
+                >ABOUT US</a
+              >
+            </li>
+            <li>
+              <a href="work.html" class="text-[#134161] hover:text-[#FFD200]"
+                >OUR WORK</a
+              >
+            </li>
+            <li>
+              <a href="contact.html" class="text-[#134161] hover:text-[#FFD200]"
+                >CONTACT</a
+              >
+            </li>
+            <li class="flex space-x-3 text-2xl">
+              <a
+                href="#"
+                class="text-[#134161] hover:text-[#FFD200] hover:scale-110 transition-transform duration-200"
+              >
+                <i class="fab fa-instagram"></i>
+              </a>
+              <a
+                href="#"
+                class="text-[#134161] hover:text-[#FFD200] hover:scale-110 transition-transform duration-200"
+              >
+                <i class="fab fa-facebook"></i>
+              </a>
+            </li>
+          </ul>
+
+          <!-- Mobile Toggle -->
+          <button
+            id="menuToggle"
+            class="md:hidden flex flex-col space-y-1 focus:outline-none"
+            aria-label="Toggle menu"
+          >
+            <span class="block w-6 h-0.5 bg-white"></span>
+            <span class="block w-6 h-0.5 bg-white"></span>
+            <span class="block w-6 h-0.5 bg-white"></span>
+          </button>
+        </div>
+
+        <!-- Mobile Menu -->
+        <div
+          id="mobileMenu"
+          class="hidden md:hidden bg-black/70 text-white shadow-md"
+        >
+          <ul class="flex flex-col p-4 space-y-3">
+            <li><a href="services.html" class="block">SERVICES</a></li>
+            <li><a href="about.html" class="block">ABOUT US</a></li>
+            <li><a href="work.html" class="block">OUR WORK</a></li>
+            <li><a href="contact.html" class="block">CONTACT</a></li>
+          </ul>
+        </div>
+      </nav>
+
+    <!-- Updated Services Section -->
+    <!-- Made services section fully responsive -->
+    <section id="services" class="py-12 sm:py-16 md:py-20 bg-[#FDFAF5]">
+      <div class="container mx-auto px-4 sm:px-6">
+        <!-- Heading Left + Logo Center -->
+        <div class="relative mb-12 sm:mb-16">
+          <div class="flex flex-col md:flex-row items-center gap-6 md:gap-0">
+            <!-- Heading Left -->
+            <div class="flex flex-col items-center md:items-start">
+              <h2
+                class="text-2xl sm:text-3xl md:text-3xl font-dmsans font-bold text-[#0d4c73]"
+              >
+                OUR SERVICES
+              </h2>
+              <div class="h-1 w-24 sm:w-28 bg-yellow-400 mt-2"></div>
+            </div>
+
+            <!-- Logo Center -->
+            <!-- <div class="flex-1 flex justify-center">
+            <img src="./assets/TNT-Logo-Black-V2.png" alt="Logo" class="h-12 sm:h-16 md:h-20 w-auto" />
+          </div> -->
+          </div>
+        </div>
+
+        <!-- Description -->
+        <p
+          class="max-w-7xl mx-auto mb-8 sm:mb-10 text-[#FDFAF5]-700 font-medium text-base sm:text-lg md:text-2xl text-center px-2 sm:px-0"
+        >
+          TNT Commercial Services 615 offers a full suite of customizable
+          services designed to meet your unique needs. As a proud locally owned
+          company, we're committed to delivering excellence for our clients.
+        </p>
+
+        <!-- Made grid responsive with flexible cards -->
+        <div
+          class="grid gap-6 sm:gap-8 md:gap-10 md:grid-cols-2 lg:grid-cols-3 px-2 sm:px-0"
+        >
+          <!-- Card 1 -->
+          <div class="hover:shadow-lg transition">
+            <img
+              src="./assets/IMG_0050.jpeg"
+              class="w-full h-56 sm:h-64 md:h-80 object-cover object-center mb-4"
+            />
+            <h3
+              class="font-dmsans text-lg sm:text-xl md:text-2xl font-bold text-[#0d4c73] mb-2 text-left"
+            >
+              POWER + PRESSURE WASHING
+            </h3>
+            <p
+              class="text-left text-base sm:text-lg md:text-xl mb-4 leading-relaxed"
+            >
+              TNT's commercial pressure washing restores and maintains the
+              appearance of your property. We effectively remove dirt, grime,
+              oil stains, and environmental buildup from all types of exterior
+              surfaces, including sidewalks, building facades, parking areas and
+              entryways.
+            </p>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="hover:shadow-lg transition">
+            <img
+              src="./assets/bc911cf6-3a14-4a90-838c-0887c3c997d0.jpeg"
+              class="w-full h-56 sm:h-64 md:h-80 object-cover object-center mb-4"
+            />
+            <h3
+              class="font-dmsans text-lg sm:text-xl md:text-2xl font-bold text-[#0d4c73] mb-2 text-left"
+            >
+              JANITORIAL
+            </h3>
+            <p
+              class="text-left text-base sm:text-lg md:text-xl mb-4 leading-relaxed"
+            >
+              Our janitorial services ensure you deliver a clean, safe, and
+              welcoming business environment. We offer customized cleaning
+              programs tailored to your unique needs including routine daily
+              cleaning, floor care and maintenance and sanitation specialty
+              cleaning.
+            </p>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="hover:shadow-lg transition">
+            <img
+              src="./assets/IMG_0323.jpeg"
+              class="w-full h-56 sm:h-64 md:h-80 object-cover object-center mb-4"
+            />
+            <h3
+              class="font-dmsans text-lg sm:text-xl md:text-2xl font-bold text-[#0d4c73] mb-2 text-left"
+            >
+              GARAGE MAINTENANCE
+            </h3>
+            <p
+              class="text-left text-base sm:text-lg md:text-xl mb-4 leading-relaxed"
+            >
+              TNT offers a broad suite of services designed to restore,
+              maintain, and enhance parking garages including power sweeping,
+              pressure washing, degreasing, paint restoration, high dusting,
+              elevator cleaning and more.
+            </p>
+          </div>
+          <div class="hover:shadow-lg transition">
+            <img
+              src="./assets/IMG_3486.jpeg"
+              class="w-full h-56 sm:h-64 md:h-80 object-cover object-center mb-4"
+            />
+            <h3
+              class="font-dmsans text-lg sm:text-xl md:text-2xl font-bold text-[#0d4c73] mb-2 text-left"
+            >
+              LANDSCAPING
+            </h3>
+            <p
+              class="text-left text-base sm:text-lg md:text-xl mb-4 leading-relaxed"
+            >
+              Our landscaping keeps your property welcoming year-round. Services
+              include routine lawn care, trimming, edging, and debris removal,
+              as well as seasonal maintenance, mulching, planting, and leaf
+              management.
+            </p>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="hover:shadow-lg transition">
+            <img
+              src="./assets/Washing.png"
+              class="w-full h-56 sm:h-64 md:h-80 object-cover object-center mb-4"
+            />
+            <h3
+              class="font-dmsans text-lg sm:text-xl md:text-2xl font-bold text-[#0d4c73] mb-2 text-left"
+            >
+              INDUSTRIAL + COMMERCIAL WINDOW CLEANING
+            </h3>
+            <p
+              class="text-left text-base sm:text-lg md:text-xl mb-4 leading-relaxed"
+            >
+              Our team delivers streak-free results for interior and exterior
+              glass, removing dirt, fingerprints, and buildup. We also offer
+              deep cleans to remove tough debris and can tailor a program and
+              schedule best for your space.
+            </p>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="hover:shadow-lg transition">
+            <img
+              src="./assets/IMG_2189.jpeg"
+              class="w-full h-56 sm:h-64 md:h-80 object-cover object-center mb-4"
+            />
+            <h3
+              class="font-dmsans text-lg sm:text-xl md:text-2xl font-bold text-[#0d4c73] mb-2 text-left"
+            >
+              FACILITY HIGH DUSTING
+            </h3>
+            <p
+              class="text-left text-base sm:text-lg md:text-xl mb-4 leading-relaxed"
+            >
+              Our high dusting services target hard-toreach areas where dust and
+              debris build up over time—vents, ceiling beams, light fixtures,
+              and ductwork.
+            </p>
+          </div>
+        </div>
+
+        <!-- Section Button -->
+        <div class="mt-12 text-center">
+          <a
+            href="#contact"
+            class="inline-block mt-5 bg-[#FFD200] text-[#FDFAF5]-900 font-semibold px-4 sm:px-6 py-2 sm:py-3 rounded-sm hover:bg-yellow-400 transition text-sm sm:text-base"
+          >
+            CONTACT US
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <!-- Made footer fully responsive -->
+    <footer
+      class="relative min-h-screen md:min-h-screen bg-cover bg-center flex items-center justify-center"
+      style="background-image: url('./assets/shutterstock_2496564007.jpg')"
+    >
+      <!-- Overlay for text contrast -->
+      <div
+        class="absolute inset-0 bg-gradient-to-r from-blue-400/10 to-transparent"
+      ></div>
+
+      <!-- Logo Top-Right -->
+      <div
+        class="absolute top-4 sm:top-6 md:top-10 right-4 sm:right-6 md:right-16 z-20"
+      >
+        <img
+          src="/assets/TNT-Logo-Black-V2.png"
+          alt="TNT Logo"
+          class="h-12 sm:h-20 md:h-32 w-auto"
+        />
+      </div>
+
+      <!-- Main Content Container -->
+      <div
+        class="relative z-10 w-full h-full flex items-center justify-center px-4 sm:px-6 md:px-16 py-12"
+      >
+        <!-- Centered Content -->
+        <div class="text-left space-y-6 sm:space-y-8 max-w-2xl">
+          <!-- LET'S CONNECT Heading -->
+          <h2
+            class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-dmsans font-bold text-blue-900"
+          >
+            LET'S CONNECT
+          </h2>
+
+          <!-- Contact Button -->
+          <button
+            class="bg-yellow-400 text-black font-dmsans font-bold px-6 sm:px-8 py-3 sm:py-4 text-base sm:text-lg hover:bg-yellow-400 transition shadow-lg rounded-sm"
+          >
+            CONTACT US
+          </button>
+
+          <!-- Phone Number -->
+          <p class="text-xl sm:text-2xl md:text-3xl font-medium text-blue-900">
+            615-953-0336
+          </p>
+
+          <!-- Address Section -->
+          <div class="space-y-1">
+            <p class="text-base sm:text-lg md:text-2xl text-blue-900">
+              Headquarted in
+            </p>
+            <p
+              class="text-base sm:text-lg md:text-2xl font-medium text-blue-900"
+            >
+              Nashville, TN 37209
+            </p>
+          </div>
+          <h1
+            class="text-base sm:text-lg md:text-xl lg:text-2xl font-bold text-blue-900"
+          >
+            LOCALLY OWNED AND OPERATED IN MIDDLE TENNESSEE
+          </h1>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

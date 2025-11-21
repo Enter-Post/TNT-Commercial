@@ -36,22 +36,24 @@
       >
         <!-- Made logo responsive -->
         <div class="flex items-center space-x-2">
-          <img
-            src="./assets/TNT-Logo-Black-V2.png"
-            alt="TNT Logo"
-            class="h-16 sm:h-24 md:h-32 w-auto"
-          />
+          <a href="index.html">
+            <img
+              src="./assets/TNT-Logo-Black-V2.png"
+              alt="TNT Logo"
+              class="h-16 sm:h-24 md:h-32 w-auto"
+            />
+          </a>
         </div>
 
         <!-- Desktop Menu -->
         <ul
           class="hidden md:flex space-x-4 lg:space-x-8 text-sm lg:text-xl font-bold"
         >
-          <li>
+          <!-- <li>
             <a href="index.html" class="text-[#134161] hover:text-[#FFD200]"
               >HOME</a
             >
-          </li>
+          </li> -->
           <li>
             <a href="services.html" class="text-[#134161] hover:text-[#FFD200]"
               >SERVICES</a
@@ -74,7 +76,7 @@
           </li>
           <li>
             <a href="calendar.html" class="text-[#134161] hover:text-[#FFD200]"
-              >CALENDAR</a
+              >BOOK AN APPOINTMENT</a
             >
           </li>
           <li class="flex space-x-3 text-2xl">
@@ -115,7 +117,7 @@
           <li><a href="about.html" class="block">ABOUT US</a></li>
           <li><a href="work.html" class="block">OUR WORK</a></li>
           <li><a href="contact.html" class="block">CONTACT</a></li>
-          <li><a href="calendar.html" class="block">CALENDAR</a></li>
+          <li><a href="calendar.html" class="block">BOOK AN APPOINTMENT</a></li>
         </ul>
       </div>
     </nav>
@@ -124,10 +126,9 @@
     <!-- Made services section fully responsive -->
     <section id="services" class="py-12 sm:py-16 md:py-20 bg-[#FDFAF5]">
       <div class="container mx-auto px-4 sm:px-6">
-        <!-- Heading Left + Logo Center -->
+        <!-- Heading Left -->
         <div class="relative mb-12 sm:mb-16">
           <div class="flex flex-col md:flex-row items-center gap-6 md:gap-0">
-            <!-- Heading Left -->
             <div class="flex flex-col items-center md:items-start">
               <h2
                 class="text-2xl sm:text-3xl md:text-3xl font-dmsans font-bold text-[#0d4c73]"
@@ -136,11 +137,6 @@
               </h2>
               <div class="h-1 w-24 sm:w-28 bg-yellow-400 mt-2"></div>
             </div>
-
-            <!-- Logo Center -->
-            <!-- <div class="flex-1 flex justify-center">
-            <img src="./assets/TNT-Logo-Black-V2.png" alt="Logo" class="h-12 sm:h-16 md:h-20 w-auto" />
-          </div> -->
           </div>
         </div>
 
@@ -154,12 +150,12 @@
           our clients.
         </p>
 
-        <!-- Made grid responsive with flexible cards -->
+        <!-- Grid -->
         <div
           class="grid gap-6 sm:gap-8 md:gap-10 md:grid-cols-2 lg:grid-cols-3 px-2 sm:px-0"
         >
           <!-- Card 1 -->
-          <div class="hover:shadow-lg transition">
+          <div class="hover:shadow-lg transition flex flex-col h-full">
             <img
               src="./assets/IMG_0050.jpeg"
               class="w-full h-56 sm:h-64 md:h-80 object-cover object-center mb-4"
@@ -170,18 +166,17 @@
               POWER + PRESSURE WASHING
             </h3>
             <p
-              class="text-left text-[#134161] text-base sm:text-lg md:text-xl mb-4 leading-relaxed"
+              class="text-left text-[#134161] text-base sm:text-lg md:text-xl mb-4 leading-relaxed flex-grow"
             >
               TNT's commercial pressure washing restores and maintains the
-              appearance of your property. We effectively remove dirt, grime,
-              oil stains, and environmental buildup from all types of exterior
-              surfaces, including sidewalks, building facades, parking areas and
+              appearance of your property. We remove dirt, grime, oil stains,
+              and buildup from sidewalks, building facades, parking areas, and
               entryways.
             </p>
           </div>
 
           <!-- Card 2 -->
-          <div class="hover:shadow-lg transition">
+          <div class="hover:shadow-lg transition flex flex-col h-full">
             <img
               src="./assets/bc911cf6-3a14-4a90-838c-0887c3c997d0.jpeg"
               class="w-full h-56 sm:h-64 md:h-80 object-cover object-center mb-4"
@@ -192,18 +187,17 @@
               JANITORIAL
             </h3>
             <p
-              class="text-left text-[#134161] text-base sm:text-lg md:text-xl mb-4 leading-relaxed"
+              class="text-left text-[#134161] text-base sm:text-lg md:text-xl mb-4 leading-relaxed flex-grow"
             >
-              Our janitorial services ensure you deliver a clean, safe, and
-              welcoming business environment. We offer customized cleaning
-              programs tailored to your unique needs including routine daily
-              cleaning, floor care and maintenance and sanitation specialty
-              cleaning.
+              Our janitorial services deliver a clean, safe, and welcoming
+              business environment. We provide customized cleaning programs
+              including daily cleaning, floor care, sanitation, and specialty
+              services.
             </p>
           </div>
 
           <!-- Card 3 -->
-          <div class="hover:shadow-lg transition">
+          <div class="hover:shadow-lg transition flex flex-col h-full">
             <img
               src="./assets/IMG_0323.jpeg"
               class="w-full h-56 sm:h-64 md:h-80 object-cover object-center mb-4"
@@ -214,15 +208,16 @@
               GARAGE MAINTENANCE
             </h3>
             <p
-              class="text-left text-[#134161] text-base sm:text-lg md:text-xl mb-4 leading-relaxed"
+              class="text-left text-[#134161] text-base sm:text-lg md:text-xl mb-4 leading-relaxed flex-grow"
             >
-              TNT offers a broad suite of services designed to restore,
-              maintain, and enhance parking garages including power sweeping,
-              pressure washing, degreasing, paint restoration, high dusting,
-              elevator cleaning and more.
+              TNT provides comprehensive parking garage maintenance including
+              power sweeping, pressure washing, degreasing, paint restoration,
+              high dusting, elevator cleaning, and more.
             </p>
           </div>
-          <div class="hover:shadow-lg transition">
+
+          <!-- Card 4 -->
+          <div class="hover:shadow-lg transition flex flex-col h-full">
             <img
               src="./assets/IMG_3486.jpeg"
               class="w-full h-56 sm:h-64 md:h-80 object-cover object-center mb-4"
@@ -233,17 +228,16 @@
               LANDSCAPING
             </h3>
             <p
-              class="text-left text-[#134161] text-base sm:text-lg md:text-xl mb-4 leading-relaxed"
+              class="text-left text-[#134161] text-base sm:text-lg md:text-xl mb-4 leading-relaxed flex-grow"
             >
-              Our landscaping keeps your property welcoming year-round. Services
-              include routine lawn care, trimming, edging, and debris removal,
-              as well as seasonal maintenance, mulching, planting, and leaf
-              management.
+              Our landscaping services keep your property clean and inviting
+              year-round. We offer lawn care, trimming, edging, debris removal,
+              seasonal maintenance, mulching, planting, and leaf management.
             </p>
           </div>
 
-          <!-- Card 2 -->
-          <div class="hover:shadow-lg transition">
+          <!-- Card 5 -->
+          <div class="hover:shadow-lg transition flex flex-col h-full">
             <img
               src="./assets/Washing.png"
               class="w-full h-56 sm:h-64 md:h-80 object-cover object-center mb-4"
@@ -254,17 +248,16 @@
               INDUSTRIAL + COMMERCIAL WINDOW CLEANING
             </h3>
             <p
-              class="text-left text-[#134161] text-base sm:text-lg md:text-xl mb-4 leading-relaxed"
+              class="text-left text-[#134161] text-base sm:text-lg md:text-xl mb-4 leading-relaxed flex-grow mt-1"
             >
-              Our team delivers streak-free results for interior and exterior
-              glass, removing dirt, fingerprints, and buildup. We also offer
-              deep cleans to remove tough debris and can tailor a program and
-              schedule best for your space.
+              We deliver streak-free results for interior and exterior glass,
+              removing dirt, fingerprints, and buildup. We also offer deep
+              cleaning for tough debris and customizable schedules.
             </p>
           </div>
 
-          <!-- Card 3 -->
-          <div class="hover:shadow-lg transition">
+          <!-- Card 6 -->
+          <div class="hover:shadow-lg transition flex flex-col h-full">
             <img
               src="./assets/IMG_2189.jpeg"
               class="w-full h-56 sm:h-64 md:h-80 object-cover object-center mb-4"
@@ -275,23 +268,13 @@
               FACILITY HIGH DUSTING
             </h3>
             <p
-              class="text-left text-[#134161] text-base sm:text-lg md:text-xl mb-4 leading-relaxed"
+              class="text-left text-[#134161] text-base sm:text-lg md:text-xl mb-4 leading-relaxed flex-grow"
             >
-              Our high dusting services target hard-toreach areas where dust and
-              debris build up over time—vents, ceiling beams, light fixtures,
-              and ductwork.
+              Our high-dusting services target hard-to-reach areas where dust
+              and debris collect—vents, beams, light fixtures, and
+              ductwork—improving air quality and overall facility cleanliness.
             </p>
           </div>
-        </div>
-
-        <!-- Section Button -->
-        <div class="mt-12 text-center">
-          <a
-            href="contact.html"
-            class="inline-block mt-5 bg-[#FFD200] text-[#FDFAF5]-900 font-semibold px-4 sm:px-6 py-2 sm:py-3 rounded-sm hover:bg-yellow-400 transition text-sm sm:text-base"
-          >
-            CONTACT US
-          </a>
         </div>
       </div>
     </section>
@@ -325,17 +308,12 @@
         <!-- Centered Content -->
         <div class="text-left space-y-6 sm:space-y-8 max-w-2xl">
           <!-- LET'S CONNECT Heading -->
-          <h2
-            class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-dmsans font-bold text-blue-900"
-          >
-            LET'S CONNECT
-          </h2>
 
           <!-- Contact Button -->
           <button
             class="bg-yellow-400 text-black font-dmsans font-bold px-6 sm:px-8 py-3 sm:py-4 text-base sm:text-lg hover:bg-yellow-400 transition shadow-lg rounded-sm"
           >
-            <a  href="contact.html"> CONTACT US </a>
+            <a href="contact.html"> CONTACT US </a>
           </button>
 
           <!-- Phone Number -->

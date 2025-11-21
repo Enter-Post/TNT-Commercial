@@ -11,7 +11,7 @@
 
         <!-- Logo at bottom-left -->
         <!-- <div class="absolute bottom-4 sm:bottom-6 md:bottom-10 left-4 sm:left-6 md:left-10">
-        <img src="./assets/TNT-Logo-Black-V2.png" alt="TNT Logo" class="h-12 sm:h-20 md:h-32 w-auto" />
+        <img src="./assets/logooutline.png" alt="TNT Logo" class="h-12 sm:h-20 md:h-32 w-auto" />
       </div> -->
 
         <!-- Button centered at bottom -->
@@ -189,7 +189,7 @@
 
             <!-- Logo Center -->
             <!-- <div class="flex-1 flex justify-center">
-            <img src="./assets/TNT-Logo-Black-V2.png" alt="Logo" class="h-12 sm:h-16 md:h-20 w-auto" />
+            <img src="./assets/logooutline.png" alt="Logo" class="h-12 sm:h-16 md:h-20 w-auto" />
           </div> -->
           </div>
         </div>
